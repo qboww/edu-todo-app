@@ -1,0 +1,30 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.globalContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.todoWrapper {
+  background-color: #f4f5f7;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  max-width: 450px;
+  width: 100%;
+  padding: 16px;
+  margin: 32px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 0px;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #4b5563;
+}

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #cbd5e0;
+  background-color: #e5e7eb;
   border-radius: 8px;
   padding: 8px 16px;
 }
@@ -43,7 +43,7 @@
 
 .buttonRemove {
   cursor: pointer;
-  background-color: #6b46c1;
+  background-color: #f54f4f;
   font-weight: 500;
   color: white;
   border-radius: 5px;
@@ -53,5 +53,5 @@
 }
 
 .buttonRemove:hover{
-  background-color: #6b46c1;
+  background-color: #c92b2b;
 }
