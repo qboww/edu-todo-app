@@ -28,7 +28,15 @@ function App() {
   }, []);
 
   const addTodo = async (text) => {
-    await addDoc(collection(db, "todos"), { text, completed: false });
+    const newTodo = { text, completed: false };
+    const docRef = await addDoc(collection(db, "todos"), newTodo);
+    setTodos([
+      {
+        ...newTodo,
+        id: docRef.id,
+      },
+      ...todos,
+    ]);
   };
 
   const toggleComplete = async (todo) => {
